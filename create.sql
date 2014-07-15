@@ -26,3 +26,11 @@ CREATE TABLE DEPT_LOCATIONS(
     Dlocation VARCHAR(15) NOT NULL,
     PRIMARY KEY(Dnumber, Dlocation)
 );
+
+CREATE TABLE PROJECT(
+    Pname VARCHAR(15) NOT NULL,
+    Pnumber INT NOT NULL,
+    Plocation VARCHAR(15),
+    Dnum INT NOT NULL,
+    PRIMARY KEY(Pnumber)
+);
